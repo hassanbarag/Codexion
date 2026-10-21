@@ -41,13 +41,13 @@ make
 **Example — FIFO**
 
 ```bash
-./codexion 5 800 200 200 200 7 100 fifo
+./codexion 3 3000 200 200 200 1 200 fifo
 ```
 
 **Example — EDF**
 
 ```bash
-./codexion 5 800 200 200 200 7 100 edf
+./codexion 3 3000 200 200 200 1 200 edf
 ```
 
 ## ⚙️ Arguments
