@@ -19,6 +19,11 @@ The simulation combines concurrent execution with resource scheduling and deadli
 - Deadline monitoring and synchronized logging
 - Coordinated thread termination and resource cleanup
 
+## 🧰 Requirements
+
+- C compiler with POSIX thread support
+- GNU Make
+- Linux or another compatible POSIX environment
 ## 🚀 Quick Start
 
 **Build the project**
@@ -117,18 +122,6 @@ Condition-variable notifications wake waiting threads when necessary. Threads ar
 | Timed condition waits | Handle cooldown-related waiting |
 | Binary min-heap | Maintains scheduling priorities |
 | `pthread_join()` | Coordinates thread completion |
-
-## 🧰 Requirements
-
-- C compiler with POSIX thread support
-- GNU Make
-- Linux or another compatible POSIX environment
-
-## 📚 References
-
-- [42 subject](https://cdn.intra.42.fr/pdf/pdf/205753/en.subject.pdf)
-- [pthread mutexes](https://man7.org/linux/man-pages/man3/pthread_mutex_lock.3p.html)
-- *The Little Book of Semaphores* — Allen B. Downey
 
 ---
 
