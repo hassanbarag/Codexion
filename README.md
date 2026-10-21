@@ -123,6 +123,11 @@ Condition-variable notifications wake waiting threads when necessary. Threads ar
 | Binary min-heap | Maintains scheduling priorities |
 | `pthread_join()` | Coordinates thread completion |
 
----
+## 📁 Project Structure
 
-*Exploring concurrency, resource coordination, and deadline-aware scheduling through C.*
+```text
+Codexion/
+├── Makefile
+├── README.md
+└── src/
+```
